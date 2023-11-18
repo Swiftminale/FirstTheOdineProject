@@ -90,17 +90,44 @@ nav {
 }
 
 .call-for{
+    display: grid;
     margin: 50px;
+    padding: 25px;
     background-color: #3883F6;
     border-radius: 12px;
     color: white;
 }
-.call-for h3{
+/* .call-for h3{
     margin: 50px;
+    float: left;
 }
 .call-for p {
     margin: 50px;
-}
+    position:relative;
+}*/
 .call-for button{
-    float: right;
+    /* float: right; */
+    margin-top: 0%;
+    padding-top: 0%;
+    display: inline-block;
+    padding: 3px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #3882f3;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #fff;
+} 
+#float {
+width: 200px;
+height: ;
+}
+footer{
+    background-color: #1F2937;
+    overflow: hidden;
+    color: white;
 }
