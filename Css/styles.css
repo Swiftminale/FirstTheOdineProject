@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+.svg {
+    float: left;
+    width: 100px; /* Adjust the width as needed */
+    height: 50px; /* Maintains aspect ratio */
+}
+
+nav {
+    background-color: #1F2937;
+    overflow: hidden;
+    color: white;
+}
+
+.right-links a {
+    display:inline-block;
+    color: white;
+    margin: auto;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#main{
+    background-color: #1F2937;
+}
+
+.right-links{
+    float: right;
+    padding: 1px;
+}
+.First-img img {
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+#first-txt{
+    float: left;
+
+}
