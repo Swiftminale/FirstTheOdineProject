@@ -6,8 +6,10 @@ body {
 
 .svg {
     float: left;
-    width: 100px; /* Adjust the width as needed */
-    height: 50px; /* Maintains aspect ratio */
+    width: 100px;
+    /* Adjust the width as needed */
+    height: 50px;
+    /* Maintains aspect ratio */
 }
 
 nav {
@@ -17,30 +19,88 @@ nav {
 }
 
 .right-links a {
-    display:inline-block;
+    display: inline-block;
     color: white;
     margin: auto;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-#main{
+#main {
     background-color: #1F2937;
 }
 
-.right-links{
+.right-links {
     float: right;
     padding: 1px;
 }
+
 .First-img img {
     float: right;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 120px;
+    margin-top: 40px;
     margin-right: 50px;
     margin-bottom: 50px;
 }
 
-#first-txt{
+#first-txt {
     float: left;
+    margin-left: 15px;
+    padding: 0%;
+    color: white;
+}
 
+.button { 
+    display: inline-block;
+    padding: 3px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #3882f3;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
+}
+
+.button:hover {
+    background-color: rgb(35, 121, 155);
+    box-shadow: 0 5px #fff;
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 7px #ffffff;
+    transform: translateY(4px);
+}
+
+#quote{
+    background-color: #E5E7EB;
+}
+
+#quote h3{
+    margin: 50px;
+    font-style: italic;
+    font-size: 36px light;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.call-for{
+    margin: 50px;
+    background-color: #3883F6;
+    border-radius: 12px;
+    color: white;
+}
+.call-for h3{
+    margin: 50px;
+}
+.call-for p {
+    margin: 50px;
+}
+.call-for button{
+    float: right;
 }
